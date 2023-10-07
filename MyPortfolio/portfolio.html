@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,700&display=swap" rel="stylesheet">
       <link href="/dist/output.css" rel="stylesheet">
-      <link rel="stylesheet" href="/css/app.css">
-    <title>Service</title>
+      <link rel="stylesheet" href="css/app.css">
+    <title>Portfolio</title>
 </head>
-<body>
+<body class="font-montserrat">
+
     <nav class="w-full fixed top-0 bg-white z-30 shadow-md">
         <div class="flex flex-row items-center justify-between h-24 px-5 max-w-[1700px] mx-auto">
             <img src="image/Decky.svg" alt="">
@@ -17,13 +18,13 @@
                     <a href="/index.html"">Home</a>
                 </li>
                 <li class="hover:text-dark-blue px-4 transition duration-300 hover:scale-110">
-                    <a href="/pages/about.html">About</a>
+                    <a href="/about.html">About</a>
                 </li>
                 <li class="hover:text-dark-blue px-4 transition duration-300 hover:scale-110">
-                    <a href="/pages/portfolio.html">Portfolio</a>
+                    <a href="/portfolio.html">Portfolio</a>
                 </li>
                 <li class="hover:text-dark-blue px-4 transition duration-300 hover:scale-110">
-                    <a href="/pages/service.html">Service</a>
+                    <a href="/service.html">Service</a>
                 </li>
             </ul>
             <button class="hidden md:flex justify-center bg-dark-blue w-[165px] py-3 rounded-full items-center transition duration-300 hover:scale-110">
@@ -40,13 +41,13 @@
                     <a href="/index.html"">Home</a>
                 </li>
                 <li class="hover:text-dark-blue">
-                    <a href="/pages/about.html">About</a>
+                    <a href="/about.html">About</a>
                 </li>
                 <li class="hover:text-dark-blue">
-                    <a href="/pages/portfolio.html">Portfolio</a>
+                    <a href="/portfolio.html">Portfolio</a>
                 </li>
                 <li class="hover:text-dark-blue">
-                    <a href="/pages/service.html">Service</a>
+                    <a href="/service.html">Service</a>
                 </li>
                 <button class="bg-dark-blue w-[165px] py-3 rounded-full items-center ">
                     <a class="text-white text-center" href="">Download CV</a>
@@ -56,11 +57,25 @@
     </nav>
 
 
-    <section class="flex flex-col h-screen max-w-[1700px] mx-auto pt-20">
-        <div class="flex justify-center my-20">
-            <h1 class="font-bold text-5xl">Masih Dalam Pengembangan</h1>
-        </div>
+    <section class="flex flex-col h-screen max-w-[1500px] mx-auto pt-20">
+       <div class=" flex justify-center my-10 ">
+            <h1 class="font-bold text-5xl">Portfolio</h1>
+       </div>
+
+       <div class="flex flex-col justify-center px-4 py-4 animated">
+            <a class="transition duration-300 hover:scale-105" href="https://pdecky1.github.io/GFXLycorisRecoil/">
+                <div class="flex flex-col md:flex-row items-center w-full max-h-[800px] bg-white rounded-2xl shadow-md">
+                    <img src="image/lycoris-recoil.png" alt="">
+                    <div>
+                        <h1 class="mt-4 mx-5 text-3xl md:text-7xl font-bold text-dark-blue">GFX-Lycoris Recoil</h1>
+                        <p class="my-4 mx-5 font-normal text-lg">This website is a website for the GFX design for the anime Lycoris Recoil, Lycoris Recoil is an action genre anime that will be broadcast in 2022. This anime by studio A-1 Pictures tells the story of the secret organization Direct Attack, whose members are killer girls named Lycoris</p>
+                    </div>
+                </div>
+            </a>
+       </div>
+
     </section>
+    
 
 
     <script src="app.js"></script>
